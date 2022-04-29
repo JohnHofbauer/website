@@ -23,7 +23,7 @@ h2 {
     
 }
 div:nth-child(1) {
-    background-image: url(raw.githubusercontent.com/JohnHofbauer/website/main/img/div1.jpg);
+    background-image: url(https://raw.githubusercontent.com/JohnHofbauer/website/main/img/div1.jpg);
     background-size: cover;
     
 
@@ -65,7 +65,7 @@ div:nth-child(2) {
 
 .parallax2 {
     height: 400px;
-    background-image: url(raw.githubusercontent.com/JohnHofbauer/website/main/img/div2.jpg);
+    background-image: url(https://raw.githubusercontent.com/JohnHofbauer/website/main/img/div2.jpg);
     background-attachment: fixed;
     background-size: cover;
 
