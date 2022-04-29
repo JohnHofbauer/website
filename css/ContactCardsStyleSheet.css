@@ -13,19 +13,19 @@
 }
 
 .img1 {
-    background-image: url(../img/linkedin.png);
+    background-image: url(raw.githubusercontent.com/JohnHofbauer/website/main/img/linkedin.png);
 }
 
 .img2 {
-    background-image: url(../img/gmail.png);
+    background-image: url(raw.githubusercontent.com/JohnHofbauer/website/main/img/gmail.png);
 }
 
 .img3 {
-    background-image: url(../img/github.png);
+    background-image: url(raw.githubusercontent.com/JohnHofbauer/website/main/img/github.png);
 }
 
 .img4 {
-    background-image: url(../img/linkedin.png);
+    background-image: url(raw.githubusercontent.com/JohnHofbauer/website/main/img/linkedin.png);
 }
 
 .image:hover {
