@@ -1,27 +1,79 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <link rel="stylesheet" type="text/css" href="css/ContactCardsStyleSheet.css" >
 
-<h1>John Hofbauer</h1>
+    <title>John Hofbauer</title>
+</head>
+<body> 
+    <!-- page top, image with parallax affect. -->
+    <div id="parallax"><h2>John Hofbauer</h2></div>
 
-<p>Linkedin: linkedin.com/in/john-hofbauer-149765188</p>
-<p>EMail: John.C.Hofbauer</p>
-<img width="200" src="https://media-exp1.licdn.com/dms/image/C4E03AQGkYYkHgZZjbg/profile-displayphoto-shrink_200_200/0/1632247805854?e=1656547200&amp;v=beta&amp;t=2Fx25H3xikGm7-sX4bOBbef8mfs16ir4T67fLPCWjdw" height="200" alt="John Hofbauer" id="ember276" class="ember-view profile-photo-edit__preview">
- 
-<button onclick="showContent()">Show hidden content</button>
+    <!-- Education -->
+    
+    <div>
+        <h3>Education</h3>
 
-<template>
-  <h2>Flower</h2>
-  <img src="img_white_flower.jpg" width="214" height="204">
-</template>
+        <!-- two columns  -->
+        <div class="center">
+        <table>
+        <tbody>
+        <tr style="height: 206px;">
+        <td style="height: 206px; width: 130px;"><img src="https://standard.psu.edu/images/uploads/psu-mark.svg" width="100" height="40" />  </td>
+        <td style="height: 206px; width: 401px;">
+        <p>Bachelor of Science in Computer Science <strong>GPA: 3.63/4.00</strong></p>
+        <p>Pennsylvania State University, University Park, PA</p>
+        <p>Graduated December 2021</p>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
 
-<script>
-function showContent() {
-  var temp = document.getElementsByTagName("template")[0];
-  var clon = temp.content.cloneNode(true);
-  document.body.appendChild(clon);
-}
-</script>
+        <!-- single column  -->
+        <div class="center">
+        <p>Bachelor of Science in Computer Science <strong>GPA: 3.63/4.00</strong></p>
+        <p>Pennsylvania State University, University Park, PA</p>
+        <p>Graduated December 2021</p>
+        </div>
 
+    </div>
+
+
+
+    <div class="parallax2"><h2> ... </h2></div>
+    <div>
+        <h3>Contact Information</h3>
+
+        
+        <!-- make cards  -->
+        <div class="center">
+
+            <table style="border-collapse: collapse; width: 70%; height: 18px;">
+                <tbody>
+                <tr style="height: 18px;">
+                <td style="width: 50%; height: 18px;"><p><a href="https://www.linkedin.com/in/john-hofbauer-149765188/"><img class="image img1" /></a></p></td>
+                <td style="width: 50%; height: 18px;"><p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=John.C.Hofbauer@gmail.com"><img class="image img2" /></a></p></td>
+                <td style="width: 50%; height: 18px;"><p><a href="https://github.com/JohnHofbauer"><img class="image img3" /></a></p></td>
+
+                
+                </tr>
+                </tbody>
+                </table>
+            
+            
+            
+
+            <p>Linkedin: linkedin.com/in/john-hofbauer-149765188</p>
+            <p>EMail: John.C.Hofbauer</p>
+        </div>
+
+        
+    </div>
+<script src="main.js"></script>
 </body>
 </html>
