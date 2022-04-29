@@ -1,0 +1,36 @@
+.image {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    transition: all .6s;
+    -o-transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+
+}
+
+.img1 {
+    background-image: url(../img/linkedin.png);
+}
+
+.img2 {
+    background-image: url(../img/gmail.png);
+}
+
+.img3 {
+    background-image: url(../img/github.png);
+}
+
+.img4 {
+    background-image: url(../img/linkedin.png);
+}
+
+.image:hover {
+    transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}

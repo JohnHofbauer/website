@@ -1,0 +1,79 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: big john;
+    width: 100%;
+    height: 100vh;
+
+}
+    /* top */ 
+h2 {
+    font-size: 60px;
+    background: rgba(238, 238, 238, 0.322);
+    padding: 8px 24px;
+    border-radius: 16px;
+    
+}
+div:nth-child(1) {
+    background-image: url(../img/div1.jpg);
+    background-size: cover;
+    
+
+}
+
+/* Education section */ 
+.center {
+    display: block;
+    margin: auto;
+    text-align: left;
+    width: 50%;
+    
+    padding: 10px;
+    background: rgb(4, 30, 66);
+    height: auto;
+
+}
+
+p {
+    font-weight:lighter;
+    text-align: left;
+    padding: 2px;
+}
+
+h3 {
+    font-size: 60px;
+    padding: 8px 24px;
+    border-radius: 16px;
+    
+}
+div:nth-child(2) { 
+    display: block;
+    text-align: center;
+    background: rgb(4, 30, 66);
+    color: azure;
+
+
+}
+
+.parallax2 {
+    height: 400px;
+    background-image: url(../img/div2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+div:nth-child(4) {
+    display: block;
+    text-align: center;
+    background: rgb(4, 30, 66);
+    color: azure;
+}
