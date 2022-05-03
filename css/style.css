@@ -47,6 +47,10 @@ h3 {
     border-radius: 16px;
     
 }
+table {
+    margin: auto;
+    text-align: center;
+}
 div:nth-child(2) { 
     display: block;
     text-align: center;
