@@ -6,5 +6,5 @@ https://htmlpreview.github.io/?https://github.com/JohnHofbauer/website/blob/main
 
 
 Future Changes
-add School projects]
+add School projects
 hack-a-thon projects
