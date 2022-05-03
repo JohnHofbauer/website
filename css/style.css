@@ -22,12 +22,6 @@ h2 {
     border-radius: 16px;
     
 }
-div:nth-child(1) {
-    background-image: url(https://raw.githubusercontent.com/JohnHofbauer/website/main/img/div1.jpg);
-    background-size: cover;
-    
-
-}
 
 /* Education section */ 
 .center {
@@ -35,11 +29,10 @@ div:nth-child(1) {
     margin: auto;
     text-align: left;
     width: 50%;
-    
+
     padding: 10px;
     background: rgb(4, 30, 66);
     height: auto;
-
 }
 
 p {
@@ -62,15 +55,6 @@ div:nth-child(2) {
 
 
 }
-
-.parallax2 {
-    height: 400px;
-    background-image: url(https://raw.githubusercontent.com/JohnHofbauer/website/main/img/div2.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-
-}
-
 div:nth-child(4) {
     display: block;
     text-align: center;
