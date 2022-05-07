@@ -27,7 +27,7 @@
         <tbody>
         <tr style="height: 100px;">
         <td style="height: 100px; width: 130px;"><!--spacing for logo  -->
-            <img src="https://raw.githubusercontent.com/JohnHofbauer/website/main/img/psu-mark.svg" width="100" height="40" />  
+            <img src="https://raw.githubusercontent.com/JohnHofbauer/website/main/images/psu-mark.svg" width="100" height="40" />  
               
         </td>
         <td style="height: 100px; width: 400px;">
@@ -46,7 +46,7 @@
             <tbody>
             <tr style="height: 100px;">
             <td style="height: 100px; width: 130px;"><!--spacing for logo, must be concistant  -->
-            <img src="https://raw.githubusercontent.com/JohnHofbauer/website/main/img/tvsd.png" width="120" height="30" />  
+            <img src="https://raw.githubusercontent.com/JohnHofbauer/website/main/images/tvsd.png" width="120" height="30" />  
                   
             </td>
             <td style="height: 206100pxpx; width: 400px;">
@@ -98,7 +98,7 @@
             <tbody>
             <tr style="height: 100px;">
             <td style="height: 100px; width: 130px;"><!--spacing for logo, must be concistant  -->
-            <img src="https://raw.githubusercontent.com/JohnHofbauer/website/main/img/7244_logo.png" width="120" height="60" />  
+            <img src="https://raw.githubusercontent.com/JohnHofbauer/website/main/images/7244_logo.png" width="120" height="60" />  
                   
             </td>
             <td style="height: 206100pxpx; width: 400px;">
@@ -124,26 +124,29 @@
 
         
         <!-- make cards  -->
+        <div id="divoverlay" class="container">
         <div class="center">
-
+            
             <table style="border-collapse: collapse; width: 70%; height: 18px;">
                 <tbody>
                 <tr style="height: 18px;">
-                <td style="width: 50%; height: 18px;"><p><a href="https://www.linkedin.com/in/john-hofbauer-149765188/"><img class="image img1" /></a></p></td>
-                <td style="width: 50%; height: 18px;"><p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=John.C.Hofbauer@gmail.com"><img class="image img2" /></a></p></td>
-                <td style="width: 50%; height: 18px;"><p><a href="https://github.com/JohnHofbauer"><img class="image img3" /></a></p></td>
+                <td id="linkedin" style="width: 50%; height: 18px;"><p><a href="https://www.linkedin.com/in/john-hofbauer-149765188/"><img class="image img1" /></a></p></td>
+                <td id="gmail" style="width: 50%; height: 18px;"><p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=John.C.Hofbauer@gmail.com"><img class="image img2" /></a></p></td>
+                <td id="github" style="width: 50%; height: 18px;"><p><a href="https://github.com/JohnHofbauer"><img class="image img3" /></a></p></td>
 
                 
                 </tr>
                 </tbody>
                 </table>
+                
+
             
             
             
 
             <!-- single column  -->
-            <p><strong>SKILLS</strong></p>
-            <p>HTML, CSS, Django Web Server, Python, C, C#, Java, Processing (core in Java), Racket,
+            <p id="skills"><strong>SKILLS</strong></p>
+            <p id="skills_Content">HTML, CSS, Django Web Server, Python, C, C#, Java, Processing (core in Java), Racket,
                 MATLAB, and Computer Hardware, MS Office Suite, Blender, Unity, google
                 workspace, Amazon AWS, GitHub</p>
                 
@@ -151,10 +154,45 @@
             <p>collections, django, email, eyed3, itertools, json, math, moviepy, os, pynput, PIL, 
                 queue, random, re, shutil, signal, spotipy, subprocess, sympy, threading, time,
                 unicode_literals</p>
-            </div>
+
 
         
     </div>
-<script src="main.js"></script>
+    <img class="overlay" hidden="true" id="linked_qr" src="https://raw.githubusercontent.com/JohnHofbauer/website/main/images/Linkedin_qr.svg"/>
+    <img class="overlay" hidden="true" id="gmail_qr"  src="https://raw.githubusercontent.com/JohnHofbauer/website/main/images/gmail_qr.svg"/>
+    <img class="overlay" hidden="true" id="github_qr" src="https://raw.githubusercontent.com/JohnHofbauer/website/main/images/github_qr.svg"/>
+</div>
 </body>
 </html>
+<script src="scrips/main.js"></script>
+<script src="scrips/jquery-3.6.0.js"></script>
+<script>
+    $(function() {
+        $("#linkedin").on("mouseover", function() {
+            $("#linked_qr").fadeIn();
+        });
+        $("#linkedin").on("mouseleave", function() {
+            $("#linked_qr").fadeOut();
+        });
+
+        $("#gmail").on("mouseover", function() {
+            $("#gmail_qr").fadeIn();
+        });
+        $("#gmail").on("mouseleave", function() {
+            $("#gmail_qr").fadeOut();
+        });
+
+        $("#github").on("mouseover", function() {
+            $("#github_qr").fadeIn();
+        });
+        $("#github").on("mouseleave", function() {
+            $("#github_qr").fadeOut();
+        });
+
+    })
+</script>
+
+
+
+
+

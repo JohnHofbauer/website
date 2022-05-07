@@ -65,3 +65,24 @@ div:nth-child(4) {
     background: rgb(4, 30, 66);
     color: azure;
 }
+
+
+.container {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.divoverlay {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  right: 10vh;
+  top: 0;
+  height: 20vh;
+  width: 20vh;
+}
