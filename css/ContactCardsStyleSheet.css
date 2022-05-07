@@ -12,22 +12,6 @@
 
 }
 
-.img1 {
-    background-image: url(https://raw.githubusercontent.com/JohnHofbauer/website/main/images/linkedin.png);
-}
-
-.img2 {
-    background-image: url(https://raw.githubusercontent.com/JohnHofbauer/website/main/images/gmail.png);
-}
-
-.img3 {
-    background-image: url(https://raw.githubusercontent.com/JohnHofbauer/website/main/images/github.png);
-}
-
-.img4 {
-    background-image: url(https://raw.githubusercontent.com/JohnHofbauer/website/main/images/linkedin.png);
-}
-
 .image:hover {
     transform: scale(1.5);
     -o-transform: scale(1.5);
