@@ -20,4 +20,7 @@ Update 0.12
 
 # Future Changes
 - add School projects
+- add renders from the raytracing class. 
 - hack-a-thon projects
+- add my tryhackme learning - maybe a link to my profile
+
