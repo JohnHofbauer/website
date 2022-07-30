@@ -86,3 +86,35 @@ div:nth-child(4) {
   height: 20vh;
   width: 20vh;
 }
+
+.navagation {
+    position: fixed; 
+    top: 1vh;
+    height: 10vh;
+    left: 5%; /* moved left 5% of page width */ 
+    width: 90%; /* size is 90% of page width to center the navagation */ 
+    transition: 0.4s;
+
+    background: rgb(4, 30, 66);
+  }
+
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }

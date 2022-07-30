@@ -13,11 +13,33 @@
     <meta name="google-site-verification" content="ZEt5jwlNhVcYaVi2hDlsowVpxlDviBXdFxhEJaKsnXc" />
 </head>
 <body> 
+    
+
+        
+
+
     <!-- page top, image with parallax affect. -->
     <div id="parallax1" class="parallax1"><h2>John Hofbauer</h2></div>
 
     <!-- Education -->
     <div>
+
+        <!-- Navagation with the div, using stacked containers to give the website depth-->
+        <div class="navagation" id="navagation">
+        <div class="navbar">
+            <a href="/accounts/profile">Profile</a>
+            <a href="/Users">Users</a>
+            <a href="/login">Login</a>
+            <a href="/admin">Employee Login</a>
+            <a class="right"> <form method="get" action="">
+              <button type="submit" style="float: right;"> Search </button>
+              <input type="text" name="q" placeholder="Search" style="float: right;">
+              </form>
+            </a> 
+          </div>
+        </div>
+
+
         <h3>Education</h3>
 
         <!-- two columns  -->
@@ -86,7 +108,7 @@
 
 
 
-    <div class="parallax2"><h2> Robotics </h2></div>
+    <div  id="parallax2" class="parallax2" ><h2> Robotics </h2></div>
     <div>
 
 
@@ -168,6 +190,23 @@
 <script src="scrips/main.js"></script>
 <script type="text/javascript" src="https://livejs.com/live.js"></script>
 <script src="scrips/jquery-3.6.0.js"></script>
+<script>
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navagation").style.left = "0%";
+        document.getElementById("navagation").style.width = "100%";
+        document.getElementById("navagation").style.top = "0%";
+      } else {
+        document.getElementById("navagation").style.left = "5%";
+        document.getElementById("navagation").style.width = "90%";
+        document.getElementById("navagation").style.top = "1%";
+
+      }
+    }
+    </script>
 <script>
     $(function() {
         $("#linkedin").on("mouseover", function() {

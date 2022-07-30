@@ -6,3 +6,10 @@ window.addEventListener("scroll", function () {
     //console.log('Offset: ' + offset);
     parallax.style.backgroundPositionY = offset * 0.7 + "px";
 })
+
+const parallax2 = document.getElementById("parallax2");
+window.addEventListener("scroll", function () {
+    let offset = window.pageYOffset;
+    //console.log('Offset: ' + offset);
+    parallax.style.backgroundPositionY = offset * 0.7 + "px";
+})
