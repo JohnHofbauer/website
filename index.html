@@ -19,18 +19,19 @@
 
 
     <!-- page top, image with parallax affect. -->
-    <div id="parallax1" class="parallax1"><h2>John Hofbauer</h2></div>
+    <div id="parallax1" class="parallax1"><h2 id="parallax1_text"  class="parallax1_text" >John Hofbauer</h2></div>
 
     <!-- Education -->
     <div>
 
-        <!-- Navagation with the div, using stacked containers to give the website depth-->
-        <div class="navagation" id="navagation">
+        <!-- Navigation with the div, using stacked containers to give the website depth-->
+        <div class="navigation" id="navigation">
         <div class="navbar">
-            <a href="/accounts/profile">Profile</a>
-            <a href="/Users">Users</a>
-            <a href="/login">Login</a>
-            <a href="/admin">Employee Login</a>
+            <a href="./index.html">Portfolio</a>
+            <a href="./about">About</a>
+            <a href="./gallery">Gallery</a>
+            <a href="./resume">Resume</a>
+            <a href="#contact">Contact</a>
             <a class="right"> <form method="get" action="">
               <button type="submit" style="float: right;"> Search </button>
               <input type="text" name="q" placeholder="Search" style="float: right;">
@@ -143,7 +144,7 @@
 
 
 
-        <h3>Contact Information</h3>
+        <h3 id="contact">Contact Information</h3>
 
         
         <!-- make cards  -->
@@ -196,17 +197,25 @@
     
     function scrollFunction() {
       if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("navagation").style.left = "0%";
-        document.getElementById("navagation").style.width = "100%";
-        document.getElementById("navagation").style.top = "0%";
+        document.getElementById("navigation").style.left = "0%";
+        document.getElementById("navigation").style.width = "100%";
+        document.getElementById("navigation").style.top = "0%";
+        document.getElementById("navigation").style.borderRadius = "0px";
       } else {
-        document.getElementById("navagation").style.left = "5%";
-        document.getElementById("navagation").style.width = "90%";
-        document.getElementById("navagation").style.top = "1%";
+        document.getElementById("navigation").style.left = "5%";
+        document.getElementById("navigation").style.width = "90%";
+        document.getElementById("navigation").style.top = "1%";
+        document.getElementById("navigation").style.borderRadius = "16px";
 
       }
+      
+      console.log(String(document.documentElement.scrollTop))
+      let strength = .2;
+      let x = (document.documentElement.scrollTop-50) * strength;
+      let y = (document.documentElement.scrollTop-50) * strength;
+      document.getElementById("parallax1_text").style.textShadow = String(x) + "px " + String(-y) + "px 0px azure, " + String(x*2) + "px " + String(-y*2) + "px 0px azure";
     }
-    </script>
+</script>
 <script>
     $(function() {
         $("#linkedin").on("mouseover", function() {

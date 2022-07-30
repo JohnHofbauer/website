@@ -2,7 +2,27 @@
     border: 0;
     padding: 0;
     margin: 0;
+
+
+    
 }
+
+:root {
+  /* CSS HEX */
+  --persian-indigo: #360568ff;
+  --ksu-purple: #5b2a86ff;
+  --shadow-blue: #7785acff;
+  --opal: #9ac6c5ff;
+  --celadon: #a5e6baff;
+
+  --text-color: azure;
+
+  --penn-state-blue: rgb(4, 30, 66);
+  --background-color: var(--penn-state-blue);
+  --navigation-color: var(--penn-state-blue);
+  --foreground-text-color: var(--text-color);
+}
+
 
 div {
     display: flex;
@@ -17,12 +37,17 @@ div {
     /* top */ 
 h2 {
     font-size: 60px;
-    background: rgba(238, 238, 238, 0.322);
     padding: 8px 24px;
-    border-radius: 16px;
     
 }
 
+.parallax1_text {
+  font-size: 60px;
+  text-shadow: -10px 10px 0px azure,
+                -20px 20px 0px azure;
+  padding: 8px 24px;
+  
+}
 /* Education section */ 
 .center {
     display: block;
@@ -31,7 +56,6 @@ h2 {
     width: 50%;
 
     padding: 10px;
-    background: rgb(4, 30, 66);
     height: auto;
 }
 
@@ -54,16 +78,16 @@ table {
 div:nth-child(2) { 
     display: block;
     text-align: center;
-    background: rgb(4, 30, 66);
-    color: azure;
+    background: var(--background-color);
+    color: var(--foreground-text-color);
 
 
 }
 div:nth-child(4) {
     display: block;
     text-align: center;
-    background: rgb(4, 30, 66);
-    color: azure;
+    background: var(--background-color);
+    color: var(--foreground-text-color);
 }
 
 
@@ -87,15 +111,20 @@ div:nth-child(4) {
   width: 20vh;
 }
 
-.navagation {
+a {
+  transition: 0.4s;
+}
+
+.navigation {
     position: fixed; 
     top: 1vh;
     height: 10vh;
     left: 5%; /* moved left 5% of page width */ 
-    width: 90%; /* size is 90% of page width to center the navagation */ 
+    width: 90%; /* size is 90% of page width to center the navigation */ 
     transition: 0.4s;
 
-    background: rgb(4, 30, 66);
+    background:  var(--navigation-color);
+    border-radius: 16px;
   }
 
   /* Style the navigation bar links */
