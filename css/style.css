@@ -13,13 +13,13 @@
   --ksu-purple: #5b2a86ff;
   --shadow-blue: #7785acff;
   --opal: #9ac6c5ff;
-  --celadon: #a5e6baff;
+  --black: rgb(36, 36, 36);
 
   --text-color: azure;
 
   --penn-state-blue: rgb(4, 30, 66);
   --background-color: var(--penn-state-blue);
-  --navigation-color: var(--penn-state-blue);
+  --navigation-color: var(--black);
   --foreground-text-color: var(--text-color);
 }
 
@@ -53,7 +53,7 @@ h2 {
     display: block;
     margin: auto;
     text-align: left;
-    width: 50%;
+    width: 70%;
 
     padding: 10px;
     height: auto;
@@ -75,7 +75,7 @@ table {
     margin: auto;
     text-align: center;
 }
-div:nth-child(2) { 
+.section1 { 
     display: block;
     text-align: center;
     background: var(--background-color);
@@ -83,12 +83,18 @@ div:nth-child(2) {
 
 
 }
-div:nth-child(4) {
+.section2 {
     display: block;
     text-align: center;
     background: var(--background-color);
     color: var(--foreground-text-color);
 }
+.title2 {
+  color: var(--foreground-text-color);
+}
+
+
+
 
 
 .container {
@@ -103,6 +109,8 @@ div:nth-child(4) {
   height: auto;
 }
 
+
+/* whatever is read last is more important */ 
 .overlay {
   position: absolute; 
   right: 10vh;
@@ -110,40 +118,14 @@ div:nth-child(4) {
   height: 20vh;
   width: 20vh;
 }
+@media screen and (max-width: 1200px) {
+  .overlay {
+    position: fixed; 
+    right: 10%;
+    top: 20vh;
+  }
+}
 
 a {
   transition: 0.4s;
 }
-
-.navigation {
-    position: fixed; 
-    top: 1vh;
-    height: 10vh;
-    left: 5%; /* moved left 5% of page width */ 
-    width: 90%; /* size is 90% of page width to center the navigation */ 
-    transition: 0.4s;
-
-    background:  var(--navigation-color);
-    border-radius: 16px;
-  }
-
-  /* Style the navigation bar links */
-  .navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-  }
-  
-  /* Right-aligned link */
-  .navbar a.right {
-    float: right;
-  }
-  
-  /* Change color on hover */
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }

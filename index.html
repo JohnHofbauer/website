@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" >
     <link rel="stylesheet" type="text/css" href="css/ContactCardsStyleSheet.css" >
     <link rel="stylesheet" type="text/css" href="css/ParallaxEffect.css" >
+    <link rel="stylesheet" type="text/css" href="css/navbar.css" >
 
     <title>John Hofbauer</title>
     <meta name="google-site-verification" content="ZEt5jwlNhVcYaVi2hDlsowVpxlDviBXdFxhEJaKsnXc" />
@@ -22,22 +23,29 @@
     <div id="parallax1" class="parallax1"><h2 id="parallax1_text"  class="parallax1_text" >John Hofbauer</h2></div>
 
     <!-- Education -->
-    <div>
+    <div class="section1">
 
         <!-- Navigation with the div, using stacked containers to give the website depth-->
         <div class="navigation" id="navigation">
-        <div class="navbar">
-            <a href="./index.html">Portfolio</a>
-            <a href="./about">About</a>
-            <a href="./gallery">Gallery</a>
-            <a href="./resume">Resume</a>
-            <a href="#contact">Contact</a>
-            <a class="right"> <form method="get" action="">
-              <button type="submit" style="float: right;"> Search </button>
-              <input type="text" name="q" placeholder="Search" style="float: right;">
-              </form>
-            </a> 
-          </div>
+            <div class="navbarH" id="navbar">
+                <a href="./index.html">Portfolio</a>
+                <a href="./about">About</a>
+                <a href="./gallery">Gallery</a>
+                <a href="./resume">Resume</a>
+                <a href="#contact">Contact</a>
+                
+                
+            </div>
+            <div class="navbarV" id="navbar" >
+                <a href="#" style="font-size:15px;" class="dropdown">&#9776;</a>
+                <div class="dropdown-content">
+                    <a href="./index.html">Portfolio</a>
+                    <a href="./about">About</a>
+                    <a href="./gallery">Gallery</a>
+                    <a href="./resume">Resume</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
         </div>
 
 
@@ -109,8 +117,8 @@
 
 
 
-    <div  id="parallax2" class="parallax2" ><h2> Robotics </h2></div>
-    <div>
+    <div  id="parallax2" class="parallax2" ><h2 class="title2"> Robotics </h2></div>
+    <div class="section2">
 
 
 
@@ -241,6 +249,9 @@
 
     })
 </script>
+
+<script>
+
 
 
 
