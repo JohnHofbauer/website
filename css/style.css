@@ -75,6 +75,7 @@ table {
     margin: auto;
     text-align: center;
 }
+.tab { margin-left: 40px; }
 .section1 { 
     display: block;
     text-align: center;
