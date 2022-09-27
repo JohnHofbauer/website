@@ -11,5 +11,5 @@ const parallax2 = document.getElementById("parallax2");
 window.addEventListener("scroll", function () {
     let offset = window.pageYOffset;
     //console.log('Offset: ' + offset);
-    parallax.style.backgroundPositionY = offset * 0.7 + "px";
+    parallax2.style.backgroundPositionY = offset * 0.7 + "px";
 })
