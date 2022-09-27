@@ -94,6 +94,13 @@ table {
   color: var(--foreground-text-color);
 }
 
+.sub-heading {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+
+}
+
 
 
 
