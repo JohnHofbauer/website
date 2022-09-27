@@ -221,60 +221,9 @@
     </div>
 
 </body>
-
 </html>
 <script src="scrips/main.js"></script>
 <script type="text/javascript" src="https://livejs.com/live.js"></script>
 <script src="scrips/jquery-3.6.0.js"></script>
-<script>
-    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-    window.onscroll = function () { scrollFunction() };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-            document.getElementById("navigation").style.left = "0%";
-            document.getElementById("navigation").style.width = "100%";
-            document.getElementById("navigation").style.top = "0%";
-            document.getElementById("navigation").style.borderRadius = "0px";
-        } else {
-            document.getElementById("navigation").style.left = "5%";
-            document.getElementById("navigation").style.width = "90%";
-            document.getElementById("navigation").style.top = "1%";
-            document.getElementById("navigation").style.borderRadius = "16px";
-
-        }
-
-        console.log(String(document.documentElement.scrollTop))
-        let strength = .2;
-        let x = (document.documentElement.scrollTop - 50) * strength;
-        let y = (document.documentElement.scrollTop - 50) * strength;
-        document.getElementById("parallax1_text").style.textShadow = String(x) + "px " + String(-y) + "px 0px azure, " + String(x * 2) + "px " + String(-y * 2) + "px 0px azure";
-    }
-</script>
-<script>
-    $(function () {
-        $("#linkedin").on("mouseover", function () {
-            $("#linked_qr").fadeIn();
-        });
-        $("#linkedin").on("mouseleave", function () {
-            $("#linked_qr").fadeOut();
-        });
-
-        $("#gmail").on("mouseover", function () {
-            $("#gmail_qr").fadeIn();
-        });
-        $("#gmail").on("mouseleave", function () {
-            $("#gmail_qr").fadeOut();
-        });
-
-        $("#github").on("mouseover", function () {
-            $("#github_qr").fadeIn();
-        });
-        $("#github").on("mouseleave", function () {
-            $("#github_qr").fadeOut();
-        });
-
-    })
-</script>
-
-<script>
+<script src="scrips/navbar.js"></script>
+<script src="scrips/qrcodes.js"></script>
