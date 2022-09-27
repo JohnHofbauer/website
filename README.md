@@ -19,18 +19,19 @@ to be hosted on github pages with the new url: https://johnhofbauer.github.io/we
 Update 0.12
 
 - Refactoring JS scripts
-- Updated grammer
+- Updated Grammar
+- Parallax fix
 
 Update 0.12
 
 - Included the jquery framework
-- added the qr code svg for set to on hover, for each of the contact links
+- Added the qr code svg for set to on hover, for each of the contact links
 
 # Future Changes
 
-- add School projects
-- add renders from the raytracing class.
-- hack-a-thon projects
-- add my tryhackme learning - maybe a link to my profile
-- add an abstraction for all computer systems
-- use stacked containers to give the website depth.
+- Add School projects
+- Add renders from the raytracing class.
+- Hack-a-thon projects
+- Add my tryhackme learning - maybe a link to my profile
+- Add an abstraction for all computer systems
+- Use stacked containers to give the website depth.
