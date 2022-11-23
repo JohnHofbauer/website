@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Building css\" && mkdir css & for /f %f in ('dir /b .\\scss') do sass .\\scss\\%f .\\css\\header.css",
-    "clean": "echo \"Removing css\" && rmdir /s .\\css"
+    "run": "python -m http.server 80"
   },
   "repository": {
     "type": "git",
