@@ -1,0 +1,19 @@
+.image {
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  transition: all 0.6s;
+  -o-transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+}
+
+.image:hover {
+  transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+}/*# sourceMappingURL=contactcards.css.map */

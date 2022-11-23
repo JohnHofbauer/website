@@ -1,0 +1,13 @@
+.parallax1 {
+  background-image: url(https://raw.githubusercontent.com/JohnHofbauer/website/main/images/div1.jpg);
+  background-size: cover;
+  background-position: center center; /* Center the image, crop from both sides */
+  height: 100vh; /* fill the window */
+}
+
+.parallax2 {
+  background-image: url(https://raw.githubusercontent.com/JohnHofbauer/website/main/images/robotics.jpg);
+  background-size: cover;
+  background-position: center center; /* Center the image, crop from both sides */
+  height: 100vh; /* 60% of the window */
+}/*# sourceMappingURL=ParallaxEffect.css.map */

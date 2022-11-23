@@ -1,0 +1,121 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* CSS HEX */
+  --foreground-text-color: colors.$ColorPalletGrade5;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: big john;
+  width: 100%;
+  height: auto;
+}
+
+/* top */
+h2 {
+  font-size: 60px;
+  padding: 8px 24px;
+}
+
+.parallax1_text {
+  font-size: 60px;
+  text-shadow: -10px 10px 0px azure, -20px 20px 0px azure;
+  padding: 8px 24px;
+}
+
+/* Education section */
+.center {
+  display: block;
+  margin: auto;
+  text-align: left;
+  width: 70%;
+  padding: 10px;
+  height: auto;
+}
+
+h3 {
+  font-size: 60px;
+  padding: 8px 24px;
+  border-radius: 16px;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+}
+
+.tab {
+  margin-left: 40px;
+}
+
+p {
+  padding: 2px;
+}
+
+.section1,
+.section2 {
+  display: block;
+  text-align: center;
+  background: #1a1a1a;
+  color: #ffffff;
+}
+.section1 p,
+.section2 p {
+  font-weight: lighter;
+  text-align: left;
+}
+
+.title2 {
+  color: #ffffff;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.top-heading {
+  padding-top: 5rem;
+  padding-bottom: 0.5rem;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.divoverlay {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* whatever is read last is more important */
+.overlay {
+  position: absolute;
+  right: 10vh;
+  top: 0;
+  height: 20vh;
+  width: 20vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .overlay {
+    position: fixed;
+    right: 10%;
+    top: 20vh;
+  }
+}
+a {
+  transition: 0.4s;
+}/*# sourceMappingURL=main.css.map */

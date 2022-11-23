@@ -1,0 +1,20 @@
+{
+  "name": "johnhofbauerportfolio",
+  "version": "1.0.0",
+  "description": "John's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Building css\" && mkdir css & for /f %f in ('dir /b .\\scss') do sass .\\scss\\%f .\\css\\header.css",
+    "clean": "echo \"Removing css\" && rmdir /s .\\css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnHofbauer/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnHofbauer/website/issues"
+  },
+  "homepage": "https://github.com/JohnHofbauer/website#readme"
+}
