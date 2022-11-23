@@ -12,6 +12,11 @@ https://johnhofbauer.github.io/website/
 
 I Plan on updating my projects periodically, in my free time as a place to experiment with many different frameworks and libaries.
 
+Update 0.14
+
+- included sass
+- included package.json
+
 Update 0.13
 Changed the website from one html file on a preview page https://htmlpreview.github.io/?https://github.com/JohnHofbauer/website/blob/main/index.html
 to be hosted on github pages with the new url: https://johnhofbauer.github.io/website/
@@ -29,6 +34,7 @@ Update 0.12
 
 # Future Changes
 
+- include logo for all skills
 - Add School projects
 - Add renders from the raytracing class.
 - Hack-a-thon projects
