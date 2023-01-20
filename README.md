@@ -41,3 +41,41 @@ Update 0.12
 - Add my tryhackme learning - maybe a link to my profile
 - Add an abstraction for all computer systems
 - Use stacked containers to give the website depth.
+
+# Outline
+
+## Navigation
+
+- Contact
+
+## Header
+
+- Parallax image, with text overly
+
+## Body
+
+- ## Section 1
+
+  - Core values
+
+- ## Section 2
+
+  - Education
+  - Involvement
+    - Penn State Pulsar Search Collaboratory
+    - First Hack-a-thon
+    - Second Hack-a-thon
+    - Capstone Project
+
+- ## Section 3
+  - Certifications awards
+    - inspire
+    - linkedin test
+    - Try Hack me (top 4%)
+  - TECHNOLOGIES (show the icon scrolling grid.)
+    - HTML, CSS, Django Web Server, Python, C, C++, C#, Java, Processing (core in Java), Racket, MATLAB, and Computer Hardware, MS Office Suite, Blender, Unity, google workspace, Amazon AWS, GitHub, sass, nodejs
+
+## Footer
+
+- Explination
+- contacts, license
